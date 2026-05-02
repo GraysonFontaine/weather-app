@@ -151,3 +151,72 @@ h1 {
   background: #74ebd5;
   border-color: #74ebd5;
 }
+
+.dark-mode-btn {
+  background: none;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 8px 16px
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dark-mode-btn:hover {
+  background: #333;
+  color: white;
+  border-color: #333;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+}
+
+body.dark-mode .container {
+  background: #1e1e2e;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+body.dark h1 {
+  color: #e0e0e0;
+}
+
+body.dark .search-box input {
+  background: #2a2a3e;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+body.dark .search-box input: ::placeholder {
+  color: #888;
+}
+
+body.dark .search-box button {
+  background: #74ebd5;
+}
+
+body.dark .weather-card {
+  background: #2a2a3e;
+}
+
+body.dark .weather-card h2 {
+  color: #e0e0e0;
+}
+
+body.dark .weather-card p {
+  color: #b0b0b0;
+}
+
+body.dark ,.unit-toggle button {
+  background: #2a2a3e;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+body.dark .dark-mode-btn {
+  border-color: #888;
+  color: #e0e0e0;
+}

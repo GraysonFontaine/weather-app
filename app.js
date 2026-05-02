@@ -67,3 +67,14 @@ document.getElementById("cityInput").addEventListener("keypress", function(e) {
     getWeather();
   }
 });
+
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+
+  const btn = document.getElementById("darkModeBtn");
+  if (document.body.classList.contains("dark")) {
+    btn.textContent = "Light Mode";
+  } else {
+    btn.textContent = "Dark Mode";
+  }
+}
