@@ -1,4 +1,4 @@
-const apiKey = "9472414d1b05388af4def51060d6a6f0 ";
+const apiKey = "9472414d1b05388af4def51060d6a6f0";
 
 function getWeather() {
   // 1. Grab what the user typed
