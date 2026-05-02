@@ -131,3 +131,23 @@ h1 {
     font-size: 0.95rem;
   }
 }
+
+.unit-toggle {
+  margin-bottom: 16px;
+}
+
+.unit-toggle button {
+  padding: 8px 20px;
+  background: #f0f0f0;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.unit-toggle button:hover {
+  background: #74ebd5;
+  border-color: #74ebd5;
+}
